@@ -4,7 +4,7 @@ export default function Home() {
 
       <section className="mb-24 flex justify-between items-start">
 
-        {/* Left side */}
+        {/* LEFT SIDE (TEXT) */}
         <div>
           <h1 className="text-5xl font-bold leading-tight max-w-2xl mb-6">
             I constantly question the world around me
@@ -15,7 +15,7 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Right side image */}
+        {/* RIGHT SIDE (IMAGE) */}
         <img 
           src="/Profile.jpeg" 
           alt="Tamara Katthain"
