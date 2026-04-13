@@ -1,54 +1,42 @@
+import Image from 'next/image'
+
 export default function Projects() {
   return (
     <main className="app-container">
 
-      <h1 className="text-3xl font-bold mb-8">
-        Projects
-      </h1>
+      <section className="grid md:grid-cols-2 gap-8">
 
-      <ul className="space-y-6 max-w-2xl">
+        {/* Nike Campaign */}
+        <a href="https://canva.link/94azntsqgbb1ht6" target="_blank">
+          <div className="relative group cursor-pointer">
+            <Image src="/nike2.jpg" alt="Nike Campaign" width={500} height={300} className="w-full h-auto object-cover" />
+            <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition">
+              <p className="text-white text-lg">Nike Campaign</p>
+            </div>
+          </div>
+        </a>
 
-        <li>
-          <a 
-            href="https://canva.link/1ew0xt5tb15ckxw" 
-            target="_blank"
-            className="underline"
-          >
-            Nike Quant / Qual Research
-          </a>
-        </li>
+        {/* Pedidos Ya */}
+        <a href="https://canva.link/pri9jn8a4t7jaev" target="_blank">
+          <div className="relative group cursor-pointer">
+            <Image src="/pedidos.jpg" alt="Pedidos Ya" width={500} height={300} className="w-full h-auto object-cover" />
+            <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition">
+              <p className="text-white text-lg">Pedidos Ya</p>
+            </div>
+          </div>
+        </a>
 
-        <li>
-          <a 
-            href="https://canva.link/94azntsqgbb1ht6" 
-            target="_blank"
-            className="underline"
-          >
-            Nike Campaign Analysis
-          </a>
-        </li>
+        {/* Red Bull */}
+        <a href="https://canva.link/ydlkeupkn4ah7sv" target="_blank">
+          <div className="relative group cursor-pointer">
+            <Image src="/redbull.jpg" alt="Red Bull" width={500} height={300} className="w-full h-auto object-cover" />
+            <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition">
+              <p className="text-white text-lg">Red Bull</p>
+            </div>
+          </div>
+        </a>
 
-        <li>
-          <a 
-            href="https://canva.link/pri9jn8a4t7jaev" 
-            target="_blank"
-            className="underline"
-          >
-            Pedidos Ya
-          </a>
-        </li>
-
-        <li>
-          <a 
-            href="https://canva.link/ydlkeupkn4ah7sv" 
-            target="_blank"
-            className="underline"
-          >
-            Red Bull
-          </a>
-        </li>
-
-      </ul>
+      </section>
 
     </main>
   )
