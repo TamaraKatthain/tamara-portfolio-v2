@@ -2,25 +2,27 @@ export default function Home() {
   return (
     <main className="app-container">
 
-      <section className="mb-24 flex justify-between items-start">
+      <section className="mb-32 grid md:grid-cols-2 gap-16 items-start">
 
-        {/* LEFT SIDE (TEXT) */}
+        {/* LEFT — TEXT */}
         <div>
-          <h1 className="text-5xl font-bold leading-tight max-w-2xl mb-6">
+          <h1 className="text-6xl leading-tight mb-8 max-w-xl">
             I constantly question the world around me
           </h1>
 
-          <p className="text-xl max-w-xl">
+          <p className="text-xl max-w-md">
             As an insights strategist, I uncover what people truly think about and need from brands, and use those insights to create meaningful connections.
           </p>
         </div>
 
-        {/* RIGHT SIDE (IMAGE) */}
-        <img 
-          src="/Profile.jpeg" 
-          alt="Tamara Katthain"
-          className="w-40 h-40 object-cover rounded"
-        />
+        {/* RIGHT — IMAGE */}
+        <div className="flex justify-end">
+          <img 
+            src="/Profile.jpeg" 
+            alt="Tamara Katthain"
+            className="w-56 h-56 object-cover"
+          />
+        </div>
 
       </section>
 
