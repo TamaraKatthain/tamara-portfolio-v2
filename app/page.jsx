@@ -6,15 +6,24 @@ export default function Home() {
 
       <section className="mb-32 grid md:grid-cols-2 gap-16 items-start">
 
-        {/* LEFT — TEXT */}
+        {/* LEFT */}
         <div>
-          <h1 className="text-6xl leading-tight mb-8 max-w-xl">
-            I constantly question the world around me
+
+          {/* NAME — BIG */}
+          <h1 className="text-6xl leading-tight mb-6">
+            Tamara Katthain
           </h1>
 
-          <p className="text-xl max-w-md">
-            As an insights strategist, I uncover what people truly think about and need from brands, and use those insights to create meaningful connections.
+          {/* STATEMENT — SMALLER */}
+          <h2 className="text-3xl mb-6 max-w-xl">
+            I constantly question the world around me
+          </h2>
+
+          {/* DESCRIPTION */}
+          <p className="text-lg max-w-md">
+            As an insights strategist, I uncover the quiet truths behind what people say and what they need from brands, using those insights to create meaningful connections.
           </p>
+
         </div>
 
         {/* RIGHT — IMAGE */}
@@ -22,9 +31,9 @@ export default function Home() {
           <Image
             src="/ProfileTamara.jpeg"
             alt="Tamara Katthain"
-            width={300}
-            height={300}
-            className="object-cover"
+            width={320}
+            height={400}
+            className="object-cover rounded-sm"
             priority
           />
         </div>
