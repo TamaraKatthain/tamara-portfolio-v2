@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Home() {
   return (
     <main className="app-container">
@@ -17,10 +19,13 @@ export default function Home() {
 
         {/* RIGHT — IMAGE */}
         <div className="flex justify-end">
-          <img 
-            src="/Profile.jpeg" 
+          <Image
+            src="/Profile.jpeg"
             alt="Tamara Katthain"
-            className="w-56 h-56 object-cover"
+            width={300}
+            height={300}
+            className="object-cover"
+            priority
           />
         </div>
 
