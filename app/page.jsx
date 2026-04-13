@@ -20,7 +20,7 @@ export default function Home() {
         {/* RIGHT — IMAGE */}
         <div className="flex justify-end">
           <Image
-            src="/Profile.jpeg"
+            src="/ProfileTamara.jpeg"
             alt="Tamara Katthain"
             width={300}
             height={300}
