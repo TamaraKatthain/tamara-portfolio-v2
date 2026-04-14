@@ -1,21 +1,18 @@
 import './globals.css'
-import Nav from './components/Nav'
-import Footer from './components/Footer'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Tamara Katthain — Insights Strategist',
+  title: 'Tamara Katthain',
   description: 'Portfolio',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <div className="app-container">
-          <Nav />
-          {children}
-          <Footer />
-        </div>
+      <body className={inter.className}>
+        {children}
       </body>
     </html>
   )
