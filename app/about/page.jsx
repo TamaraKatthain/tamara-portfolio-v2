@@ -16,7 +16,7 @@ export default function About() {
           </h3>
 
           <p className="text-base font-semibold max-w-xs leading-relaxed">
-            Curiosity and exploration drive everything I do. I am constantly observing, questioning, and trying to understand why people think and act the way they do.
+            Curiosity / Exploration
           </p>
 
         </div>
@@ -36,7 +36,7 @@ export default function About() {
           </h3>
 
           <p className="text-base leading-relaxed">
-            The kind of person who enjoys sitting down at a coffee shop and people watching for hours. Someone who is obsessed with analyzing human behavior, especially consumer purchasing behavior, and finding patterns in what people like, what they buy, and what they are talking about.
+            The kind of person who enjoys sitting down at a coffee shop, “people watching” for hours. They are obsessed with analyzing human behavior, especially consumer purchasing behavior, and finding patterns in what people like, what they buy, and what they are talking about.
           </p>
 
         </div>
@@ -56,7 +56,7 @@ export default function About() {
           </h3>
 
           <p className="text-base leading-relaxed">
-            When I work with Tamara, it feels like we could brainstorm for hours. She makes me feel confident in speaking up and sharing my ideas in a judgment-free space. We analyze everything in depth, as we are both completely obsessed with understanding human behavior and the underlying reasons behind our actions.
+            When I work with Tamara, it feels like we could brainstorm for hours. She makes me feel confident in speaking up and sharing my ideas in a judgment-free space. We analyze everything in depth, as we are both completely obsessed with analyzing human behavior and the underlying reasons behind our actions.
           </p>
 
         </div>
