@@ -1,68 +1,43 @@
-import Image from 'next/image'
-
-export default function Projects() {
+export default function Experience() {
   return (
-    <main className="app-container min-h-screen">
+    <main className="app-container py-20">
 
       {/* HEADLINE */}
-      <div className="mb-24">
+      <div className="mb-16">
         <h1 className="text-7xl md:text-8xl font-extrabold text-[#2F8EDC] leading-[0.95]">
-          What it looks like in practice.
+          Where curiosity meets execution
         </h1>
       </div>
 
-      {/* PROJECTS */}
-      <section className="flex gap-20 justify-center items-start">
+      {/* TEXT GRID */}
+      <section className="grid md:grid-cols-3 gap-12 mb-16">
 
-        {/* NIKE */}
-        <div className="w-[320px] group cursor-pointer">
-          <p className="text-lg font-semibold text-[#2F8EDC] mb-3 opacity-0 group-hover:opacity-100 transition">
-            NIKE
-          </p>
-
-          <div className="relative w-full h-[400px] overflow-hidden">
-            <Image
-              src="/Nike.png"
-              alt="Nike"
-              fill
-              className="object-cover grayscale transition duration-500 group-hover:scale-105"
-            />
-          </div>
+        <div>
+          <h3 className="font-bold mb-4">Academics</h3>
+          <p>Boston University BA in Psychology, Minor in Advertising</p>
+          <p className="mt-4">USC MS in DSM — Expected 2026</p>
         </div>
 
-        {/* PEDIDOS YA */}
-        <div className="w-[320px] group cursor-pointer">
-          <p className="text-lg font-semibold text-[#2F8EDC] mb-3 opacity-0 group-hover:opacity-100 transition">
-            PEDIDOS YA
-          </p>
-
-          <div className="relative w-full h-[400px] overflow-hidden">
-            <Image
-              src="/Pedidosya.png"
-              alt="Pedidos"
-              fill
-              className="object-cover grayscale transition duration-500 group-hover:scale-105"
-            />
-          </div>
+        <div>
+          <h3 className="font-bold mb-4">Professional</h3>
+          <p>Worked with Tinder, Walmart, Visa, OceanSpray</p>
+          <p className="mt-4">Launched 20+ products (CPG)</p>
+          <p className="mt-4">3+ years agency + client-side</p>
         </div>
 
-        {/* RED BULL */}
-        <div className="w-[320px] group cursor-pointer">
-          <p className="text-lg font-semibold text-[#2F8EDC] mb-3 opacity-0 group-hover:opacity-100 transition">
-            RED BULL
-          </p>
-
-          <div className="relative w-full h-[400px] overflow-hidden">
-            <Image
-              src="/Redbull.png"
-              alt="Red Bull"
-              fill
-              className="object-cover grayscale transition duration-500 group-hover:scale-105"
-            />
-          </div>
+        <div>
+          <h3 className="font-bold mb-4">Other</h3>
+          <p>USC Annenberg Columnist</p>
+          <p className="mt-4">Research Projects</p>
+          <p className="mt-4">Entrepreneur</p>
         </div>
 
       </section>
+
+      {/* THIS IS GRAD2.JPG */}
+      <div>
+        <img src="/Grad2.JPG" className="w-full object-cover" />
+      </div>
 
     </main>
   )
