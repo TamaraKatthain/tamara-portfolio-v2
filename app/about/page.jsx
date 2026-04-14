@@ -7,8 +7,9 @@ export default function About() {
         {/* COLUMN 1 */}
         <div className="space-y-6">
 
-          <div className="w-10 h-10 border-2 border-[#2F8EDC] rounded-full flex items-center justify-center text-[#2F8EDC] text-sm">
-            ◎
+          {/* ICON */}
+          <div className="text-4xl text-[#2F8EDC]">
+            🔍
           </div>
 
           <h3 className="text-lg font-bold uppercase tracking-wide">
@@ -27,8 +28,8 @@ export default function About() {
         {/* COLUMN 2 */}
         <div className="space-y-6">
 
-          <div className="w-10 h-10 border-2 border-[#2F8EDC] flex items-center justify-center text-[#2F8EDC] text-sm">
-            ↔
+          <div className="text-4xl text-[#2F8EDC]">
+            💭
           </div>
 
           <h3 className="text-lg font-bold uppercase tracking-wide">
@@ -47,8 +48,8 @@ export default function About() {
         {/* COLUMN 3 */}
         <div className="space-y-6">
 
-          <div className="w-10 h-10 border-2 border-[#2F8EDC] flex items-center justify-center text-[#2F8EDC] text-sm">
-            ⚙
+          <div className="text-4xl text-[#2F8EDC]">
+            🧠
           </div>
 
           <h3 className="text-lg font-bold uppercase tracking-wide">
