@@ -4,33 +4,34 @@ export default function Home() {
   return (
     <main className="app-container text-white">
 
-      <section className="mb-32 grid md:grid-cols-2 gap-16 items-start">
+      <section className="grid md:grid-cols-2 gap-20 items-center min-h-[80vh]">
 
-        <div>
+        {/* LEFT */}
+        <div className="space-y-8">
 
-          {/* NAME */}
-          <h1 className="text-7xl font-extrabold mb-6">
-            Tamara Katthain
+          <h1 className="text-7xl font-extrabold leading-[0.95]">
+            Tamara
+            <br />
+            Katthain
           </h1>
 
-          {/* STATEMENT */}
-          <h2 className="text-3xl mb-6 max-w-xl">
+          <h2 className="text-3xl max-w-lg leading-snug opacity-90">
             I constantly question the world around me
           </h2>
 
-          {/* DESCRIPTION */}
-          <p className="text-lg max-w-md">
+          <p className="text-lg max-w-md opacity-80">
             As an insights strategist, I uncover the quiet truths behind what people say and what they need from brands, using those insights to create meaningful connections.
           </p>
 
         </div>
 
-        <div className="flex justify-end">
+        {/* RIGHT */}
+        <div className="flex justify-center md:justify-end">
           <Image
             src="/ProfileTamara.jpeg"
             alt="Tamara Katthain"
-            width={320}
-            height={400}
+            width={350}
+            height={450}
             className="object-cover"
           />
         </div>
