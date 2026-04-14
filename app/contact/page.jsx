@@ -7,17 +7,17 @@ export default function Contact() {
       <section className="grid md:grid-cols-2 gap-20 items-center">
 
         {/* LEFT — LINKS */}
-        <div className="space-y-8">
+        <div className="space-y-10">
 
           <h1 className="text-4xl font-bold">
-            Contact
+            Want to connect?
           </h1>
 
-          <div className="flex flex-col gap-4 text-lg">
+          <div className="flex flex-col gap-6 text-2xl font-medium">
 
             <a
               href="mailto:katthaint@gmail.com"
-              className="hover:text-[#2F8EDC] transition"
+              className="hover:underline hover:text-[#2F8EDC] transition"
             >
               Email
             </a>
@@ -25,7 +25,7 @@ export default function Contact() {
             <a
               href="https://www.linkedin.com/in/tamara-katthain"
               target="_blank"
-              className="hover:text-[#2F8EDC] transition"
+              className="hover:underline hover:text-[#2F8EDC] transition"
             >
               LinkedIn
             </a>
@@ -33,7 +33,7 @@ export default function Contact() {
             <a
               href="https://substack.com/@tamarakatthain"
               target="_blank"
-              className="hover:text-[#2F8EDC] transition"
+              className="hover:underline hover:text-[#2F8EDC] transition"
             >
               Substack
             </a>
@@ -41,7 +41,7 @@ export default function Contact() {
             <a
               href="https://medium.com/@TamaraKatthain"
               target="_blank"
-              className="hover:text-[#2F8EDC] transition"
+              className="hover:underline hover:text-[#2F8EDC] transition"
             >
               Medium
             </a>
@@ -55,8 +55,8 @@ export default function Contact() {
           <Image
             src="/Snoopy.jpg"
             alt="Snoopy"
-            width={350}
-            height={350}
+            width={380}
+            height={380}
             className="object-cover"
           />
         </div>
