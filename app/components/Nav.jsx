@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Nav() {
   return (
-    <nav className="flex justify-between items-center mb-16">
+    <nav className="flex justify-between items-center mt-8 mb-16 px-6">
 
       {/* NAME */}
       <div className="text-lg tracking-[0.2em] uppercase text-[#2F8EDC]">
@@ -12,7 +12,7 @@ export default function Nav() {
       </div>
 
       {/* LINKS */}
-      <div className="flex gap-5">
+      <div className="flex gap-5 pr-6">
 
         <Link href="/">
           <span className="px-5 py-2.5 rounded-full text-base font-medium bg-[#2F8EDC]/10 text-[#2F8EDC] hover:bg-[#2F8EDC] hover:text-white transition">
