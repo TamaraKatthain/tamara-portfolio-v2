@@ -2,42 +2,50 @@ export default function Experience() {
   return (
     <main className="app-container py-20">
 
+      {/* HEADLINE */}
       <div className="mb-16">
-        <h1 className="text-7xl md:text-8xl font-extrabold text-[#2F8EDC]">
+        <h1 className="text-7xl md:text-8xl font-extrabold text-[#2F8EDC] leading-[0.95]">
           Where curiosity meets execution
         </h1>
       </div>
 
-      <section className="grid md:grid-cols-2 gap-16 items-center">
+      {/* CONTENT */}
+      <section className="grid md:grid-cols-2 gap-20 items-start">
 
-        {/* LEFT TEXT */}
-        <div className="space-y-6">
+        {/* LEFT */}
+        <div className="space-y-10">
 
-          <p className="text-2xl font-semibold">
-            3+ years across agency and client-side roles
-          </p>
+          <div>
+            <h3 className="font-bold uppercase mb-4">Academics</h3>
+            <p>Boston University BA in Psychology, Minor in Advertising</p>
+            <p className="mt-4">USC MS in DSM — Expected December 2026</p>
+          </div>
 
-          <p>
-            Worked with brands like Tinder, Walmart, Visa, and OceanSpray.
-          </p>
+          <div>
+            <h3 className="font-bold uppercase mb-4">Professional</h3>
 
-          <p>
-            Supported the launch of 20+ products across CPG categories.
-          </p>
+            <p className="mb-4">
+              Experience working with legendary clients like Tinder, Walmart, Visa, and OceanSpray.
+            </p>
 
-          <p>
-            Boston University BA in Psychology, Minor in Advertising.
-          </p>
+            <p className="mb-4">
+              Supported the launch of 20+ products to market across CPG categories.
+            </p>
 
-          <p>
-            USC MS in Digital Social Media (2026).
-          </p>
+            <p>
+              3+ years of advertising experience across agency and client-side roles.
+            </p>
+
+          </div>
 
         </div>
 
-        {/* RIGHT IMAGE */}
-        <div>
-          <img src="/Grad2.JPG" className="w-full object-cover" />
+        {/* RIGHT IMAGE (SMALLER) */}
+        <div className="flex justify-center">
+          <img
+            src="/Grad2.JPG"
+            className="w-[350px] object-cover"
+          />
         </div>
 
       </section>
