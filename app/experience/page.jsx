@@ -9,28 +9,49 @@ export default function Experience() {
         </h1>
       </div>
 
-      {/* EXPERIENCE */}
-      <section className="space-y-16 max-w-3xl">
+      {/* TIMELINE */}
+      <section className="relative border-l-2 border-[#2F8EDC] pl-10 space-y-16 max-w-2xl">
 
-        {/* ROLE 1 */}
-        <div className="space-y-2">
-          <h3 className="text-2xl font-semibold">Brand Manager — Güd</h3>
-          <p className="text-sm text-[#2F8EDC]">Mexico City</p>
-          <p className="mt-4 leading-relaxed">
-            Leading brand strategy, positioning, and partnerships for a 100% Mexican vegan company. Focused on building meaningful connections with consumers through culturally relevant storytelling and insight-driven decisions.
+        {/* 2026 */}
+        <div>
+          <p className="text-sm text-[#2F8EDC] mb-2">2026</p>
+          <p className="text-lg font-medium">
+            USC MS in DSM, a highly selective program shaping the future of communication.
           </p>
         </div>
 
-        {/* ROLE 2 */}
-        <div className="space-y-2">
-          <h3 className="text-2xl font-semibold">Post Creative Strategist — VaynerMedia</h3>
-          <p className="text-sm text-[#2F8EDC]">Los Angeles</p>
-          <p className="mt-4 leading-relaxed">
-            Developed insight-driven creative strategies, leveraging cultural nuance and audience behavior to inform campaigns and drive engagement across digital platforms.
+        {/* 2024 */}
+        <div>
+          <p className="text-sm text-[#2F8EDC] mb-2">2024</p>
+          <p className="text-lg font-medium">
+            Supported the launch of 20+ products to market across CPG categories.
+          </p>
+        </div>
+
+        {/* 2022 */}
+        <div>
+          <p className="text-sm text-[#2F8EDC] mb-2">2022</p>
+          <p className="text-lg font-medium">
+            Experience working with legendary clients like Tinder, Walmart, Visa, and OceanSpray.
+          </p>
+        </div>
+
+        {/* 2019 */}
+        <div>
+          <p className="text-sm text-[#2F8EDC] mb-2">2019</p>
+          <p className="text-lg font-medium">
+            Boston University BA in Psychology, Minor in Advertising.
           </p>
         </div>
 
       </section>
+
+      {/* SUMMARY LINE */}
+      <div className="mt-20 max-w-xl">
+        <p className="text-lg">
+          3+ years of advertising experience across agency and client-side roles.
+        </p>
+      </div>
 
     </main>
   )
