@@ -4,7 +4,7 @@ export default function About() {
 
       {/* HEADLINE */}
       <div className="mb-24">
-        <h1 className="text-6xl md:text-7xl font-extrabold text-white">
+        <h1 className="text-7xl md:text-8xl font-extrabold text-[#2F8EDC]">
           What Drives Me?
         </h1>
       </div>
