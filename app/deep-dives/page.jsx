@@ -12,8 +12,11 @@ export default function DeepDives() {
       <section className="max-w-2xl space-y-16">
 
         {/* ARTICLE 1 */}
-        <div className="space-y-4 border-b border-[#2F8EDC]/20 pb-10">
-
+        <a
+          href="https://tamarakatthain.substack.com/p/grammys-when-music-reflects-culture"
+          target="_blank"
+          className="block space-y-4 border-b border-[#2F8EDC]/20 pb-10 hover:opacity-70 transition"
+        >
           <h2 className="text-2xl font-semibold">
             The Grammys: when music reflects culture
           </h2>
@@ -25,12 +28,14 @@ export default function DeepDives() {
           <p>
             The Grammys are a reflection of the cultural landscape, a portrait of this past year and a snapshot of the future.
           </p>
-
-        </div>
+        </a>
 
         {/* ARTICLE 2 */}
-        <div className="space-y-4">
-
+        <a
+          href="https://tamarakatthain.substack.com/p/grammys-when-music-reflects-culture"
+          target="_blank"
+          className="block space-y-4 hover:opacity-70 transition"
+        >
           <h2 className="text-2xl font-semibold">
             Inside the ‘Tell Me Lies’ finale: A horror comedy
           </h2>
@@ -42,8 +47,7 @@ export default function DeepDives() {
           <p>
             Twenty-six episodes, two timelines and many toxic breakups later, “Tell Me Lies” has finally come to its end.
           </p>
-
-        </div>
+        </a>
 
       </section>
 
