@@ -2,23 +2,12 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen overflow-hidden">
+    <main className="app-container min-h-screen">
 
-      {/* CUTOUT IMAGE — REAL POP OUT */}
-      <div className="absolute bottom-0 left-[-80px]">
-        <Image
-          src="/TamyProfileNew.png"
-          alt="Tamara Katthain"
-          width={700}
-          height={800}
-          className="object-contain drop-shadow-2xl"
-        />
-      </div>
+      <section className="grid md:grid-cols-2 gap-20 items-center">
 
-      {/* TEXT — RIGHT SIDE */}
-      <div className="flex justify-end items-center min-h-screen px-24">
-
-        <div className="max-w-xl space-y-8 text-right">
+        {/* LEFT — TEXT */}
+        <div className="space-y-8">
 
           <h1 className="text-7xl font-extrabold leading-[0.95]">
             Tamara
@@ -26,17 +15,28 @@ export default function Home() {
             Katthain
           </h1>
 
-          <h2 className="text-3xl leading-snug opacity-90">
+          <h2 className="text-3xl max-w-lg leading-snug">
             I constantly question the world around me
           </h2>
 
-          <p className="text-lg opacity-80">
+          <p className="text-lg max-w-md">
             As an insights strategist, I uncover the quiet truths behind what people say and what they need from brands, using those insights to create meaningful connections.
           </p>
 
         </div>
 
-      </div>
+        {/* RIGHT — IMAGE */}
+        <div className="flex justify-end">
+          <Image
+            src="/final.jpeg"
+            alt="Tamara Katthain"
+            width={400}
+            height={500}
+            className="object-cover"
+          />
+        </div>
+
+      </section>
 
     </main>
   )
