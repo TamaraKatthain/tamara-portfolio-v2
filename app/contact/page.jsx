@@ -10,20 +10,52 @@ export default function Contact() {
         <div className="space-y-6">
 
           <h1 className="text-4xl font-bold">
-            Let’s Connect
+            Contact
           </h1>
 
-          <p className="text-lg max-w-md">
-            Whether it’s a collaboration, a project, or just a conversation, I’m always open to connecting with people who think differently and care deeply about what they create.
+          <p className="text-base">
+            Email:{" "}
+            <a href="mailto:katthaint@gmail.com" className="text-[#2F8EDC] underline">
+              katthaint@gmail.com
+            </a>
           </p>
 
           <p className="text-base">
-            tamara@email.com
+            LinkedIn:{" "}
+            <a
+              href="https://www.linkedin.com/in/tamara-katthain"
+              target="_blank"
+              className="text-[#2F8EDC] underline"
+            >
+              www.linkedin.com/in/tamara-katthain
+            </a>
+          </p>
+
+          <p className="text-base">
+            Substack:{" "}
+            <a
+              href="https://substack.com/@tamarakatthain"
+              target="_blank"
+              className="text-[#2F8EDC] underline"
+            >
+              substack.com/@tamarakatthain
+            </a>
+          </p>
+
+          <p className="text-base">
+            Medium:{" "}
+            <a
+              href="https://medium.com/@TamaraKatthain"
+              target="_blank"
+              className="text-[#2F8EDC] underline"
+            >
+              medium.com/@TamaraKatthain
+            </a>
           </p>
 
         </div>
 
-        {/* RIGHT — SNOOPY IMAGE */}
+        {/* RIGHT — IMAGE */}
         <div className="flex justify-end">
           <Image
             src="/Snoopy.jpg"
