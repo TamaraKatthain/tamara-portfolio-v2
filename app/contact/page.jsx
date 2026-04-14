@@ -1,32 +1,40 @@
+import Image from 'next/image'
+
 export default function Contact() {
   return (
-    <main className="app-container">
+    <main className="app-container min-h-screen">
 
-      <h1 className="text-3xl font-bold mb-8">
-        Contact
-      </h1>
+      <section className="grid md:grid-cols-2 gap-20 items-center">
 
-      <div className="space-y-6 max-w-xl">
+        {/* LEFT — TEXT */}
+        <div className="space-y-6">
 
-        <div>
-          <p className="text-sm text-gray-700">Email</p>
-          <a href="mailto:katthaint@gmail.com" className="underline">
-            katthaint@gmail.com
-          </a>
+          <h1 className="text-4xl font-bold">
+            Let’s Connect
+          </h1>
+
+          <p className="text-lg max-w-md">
+            Whether it’s a collaboration, a project, or just a conversation, I’m always open to connecting with people who think differently and care deeply about what they create.
+          </p>
+
+          <p className="text-base">
+            tamara@email.com
+          </p>
+
         </div>
 
-        <div>
-          <p className="text-sm text-gray-700">LinkedIn</p>
-          <a 
-            href="https://www.linkedin.com/in/tamara-katthain" 
-            target="_blank"
-            className="underline"
-          >
-            www.linkedin.com/in/tamara-katthain
-          </a>
+        {/* RIGHT — SNOOPY IMAGE */}
+        <div className="flex justify-end">
+          <Image
+            src="/Snoopy.jpg"
+            alt="Snoopy"
+            width={350}
+            height={350}
+            className="object-cover"
+          />
         </div>
 
-      </div>
+      </section>
 
     </main>
   )
