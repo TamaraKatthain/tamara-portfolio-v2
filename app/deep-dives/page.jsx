@@ -16,7 +16,7 @@ export default function DeepDives() {
 
           <img
             src="/Grammy.jpg"
-            className="w-full h-[300px] object-cover rounded-lg"
+            className="w-full h-[300px] object-cover object-center rounded-lg"
           />
 
           <h2 className="text-3xl font-bold">
@@ -25,10 +25,6 @@ export default function DeepDives() {
 
           <p className="text-lg text-[#2F8EDC]">
             The night’s biggest wins revealed the sounds, cultural zeitgeist and trends shaping society.
-          </p>
-
-          <p className="text-sm opacity-60">
-            Tamara Katthain
           </p>
 
           <a
@@ -46,7 +42,7 @@ export default function DeepDives() {
 
           <img
             src="/Series.jpg"
-            className="w-full h-[300px] object-cover rounded-lg"
+            className="w-full h-[300px] object-cover object-top rounded-lg"
           />
 
           <h2 className="text-3xl font-bold">
@@ -55,10 +51,6 @@ export default function DeepDives() {
 
           <p className="text-lg text-[#2F8EDC]">
             Spoiler alert! Confessions, consequences and closure define the series’ final episode.
-          </p>
-
-          <p className="text-sm opacity-60">
-            Tamara Katthain
           </p>
 
           <a
