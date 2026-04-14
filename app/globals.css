@@ -25,3 +25,12 @@ body {
   margin: 0 auto;
   padding: 48px 24px;
 }
+.app-container {
+  padding: 60px 80px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 40px 20px;
+  }
+}
