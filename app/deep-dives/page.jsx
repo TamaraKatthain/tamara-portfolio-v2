@@ -15,6 +15,7 @@ export default function DeepDives() {
         <a
           href="https://tamarakatthain.substack.com/p/grammys-when-music-reflects-culture"
           target="_blank"
+          rel="noopener noreferrer"
           className="block space-y-4 border-b border-[#2F8EDC]/20 pb-10 hover:opacity-70 transition"
         >
           <h2 className="text-2xl font-semibold">
@@ -32,8 +33,9 @@ export default function DeepDives() {
 
         {/* ARTICLE 2 */}
         <a
-          href="https://tamarakatthain.substack.com/p/grammys-when-music-reflects-culture"
+          href="https://tamarakatthain.substack.com/p/inside-the-tell-me-lies-finale-a"
           target="_blank"
+          rel="noopener noreferrer"
           className="block space-y-4 hover:opacity-70 transition"
         >
           <h2 className="text-2xl font-semibold">
