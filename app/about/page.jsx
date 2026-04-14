@@ -2,31 +2,34 @@ export default function About() {
   return (
     <main className="app-container min-h-screen">
 
-      <section className="grid md:grid-cols-3 gap-12 items-start">
+      <section className="grid md:grid-cols-3 gap-16 items-start relative">
 
-        {/* COLUMN 1 — SMALLER / BOLD */}
-        <div className="space-y-4">
+        {/* COLUMN 1 */}
+        <div className="space-y-6">
 
-          {/* ICON */}
-          <div className="text-3xl text-[#2F8EDC]">🎯</div>
+          <div className="w-10 h-10 border-2 border-[#2F8EDC] rounded-full flex items-center justify-center text-[#2F8EDC] text-sm">
+            ◎
+          </div>
 
           <h3 className="text-lg font-bold uppercase tracking-wide">
             Fundamental Human Value
           </h3>
 
-          <p className="text-base font-semibold max-w-xs">
+          <p className="text-base font-semibold max-w-xs leading-relaxed">
             At the core, I believe people want to feel understood. Not targeted, not sold to, but seen. The strongest brands don’t just communicate, they resonate.
           </p>
 
         </div>
 
         {/* DIVIDER */}
-        <div className="hidden md:block w-px bg-[#2F8EDC]/30 h-full"></div>
+        <div className="hidden md:block absolute left-1/3 top-0 h-full w-[2px] bg-[#2F8EDC]"></div>
 
         {/* COLUMN 2 */}
-        <div className="space-y-4">
+        <div className="space-y-6">
 
-          <div className="text-3xl text-[#2F8EDC]">🤝</div>
+          <div className="w-10 h-10 border-2 border-[#2F8EDC] flex items-center justify-center text-[#2F8EDC] text-sm">
+            ↔
+          </div>
 
           <h3 className="text-lg font-bold uppercase tracking-wide">
             Who Really Gets Me
@@ -39,12 +42,14 @@ export default function About() {
         </div>
 
         {/* DIVIDER */}
-        <div className="hidden md:block w-px bg-[#2F8EDC]/30 h-full"></div>
+        <div className="hidden md:block absolute left-2/3 top-0 h-full w-[2px] bg-[#2F8EDC]"></div>
 
         {/* COLUMN 3 */}
-        <div className="space-y-4">
+        <div className="space-y-6">
 
-          <div className="text-3xl text-[#2F8EDC]">⚙️</div>
+          <div className="w-10 h-10 border-2 border-[#2F8EDC] flex items-center justify-center text-[#2F8EDC] text-sm">
+            ⚙
+          </div>
 
           <h3 className="text-lg font-bold uppercase tracking-wide">
             How I Want My Clients to Feel
