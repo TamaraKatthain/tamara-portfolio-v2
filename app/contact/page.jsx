@@ -6,52 +6,47 @@ export default function Contact() {
 
       <section className="grid md:grid-cols-2 gap-20 items-center">
 
-        {/* LEFT — TEXT */}
-        <div className="space-y-6">
+        {/* LEFT — LINKS */}
+        <div className="space-y-8">
 
           <h1 className="text-4xl font-bold">
             Contact
           </h1>
 
-          <p className="text-base">
-            Email:{" "}
-            <a href="mailto:katthaint@gmail.com" className="text-[#2F8EDC] underline">
-              katthaint@gmail.com
-            </a>
-          </p>
+          <div className="flex flex-col gap-4 text-lg">
 
-          <p className="text-base">
-            LinkedIn:{" "}
+            <a
+              href="mailto:katthaint@gmail.com"
+              className="hover:text-[#2F8EDC] transition"
+            >
+              Email
+            </a>
+
             <a
               href="https://www.linkedin.com/in/tamara-katthain"
               target="_blank"
-              className="text-[#2F8EDC] underline"
+              className="hover:text-[#2F8EDC] transition"
             >
-              www.linkedin.com/in/tamara-katthain
+              LinkedIn
             </a>
-          </p>
 
-          <p className="text-base">
-            Substack:{" "}
             <a
               href="https://substack.com/@tamarakatthain"
               target="_blank"
-              className="text-[#2F8EDC] underline"
+              className="hover:text-[#2F8EDC] transition"
             >
-              substack.com/@tamarakatthain
+              Substack
             </a>
-          </p>
 
-          <p className="text-base">
-            Medium:{" "}
             <a
               href="https://medium.com/@TamaraKatthain"
               target="_blank"
-              className="text-[#2F8EDC] underline"
+              className="hover:text-[#2F8EDC] transition"
             >
-              medium.com/@TamaraKatthain
+              Medium
             </a>
-          </p>
+
+          </div>
 
         </div>
 
