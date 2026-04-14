@@ -13,14 +13,18 @@ export default function Experience() {
       <section className="grid md:grid-cols-2 gap-20 items-start">
 
         {/* LEFT */}
-        <div className="space-y-10">
+        <div className="space-y-12">
 
+          {/* ACADEMICS */}
           <div>
             <h3 className="font-bold uppercase mb-4">Academics</h3>
             <p>Boston University BA in Psychology, Minor in Advertising</p>
-            <p className="mt-4">USC MS in DSM — Expected December 2026</p>
+            <p className="mt-4">
+              USC Masters in Digital Social Media — Expected December 2026
+            </p>
           </div>
 
+          {/* PROFESSIONAL */}
           <div>
             <h3 className="font-bold uppercase mb-4">Professional</h3>
 
@@ -40,12 +44,9 @@ export default function Experience() {
 
         </div>
 
-        {/* RIGHT IMAGE (SMALLER) */}
+        {/* IMAGE */}
         <div className="flex justify-center">
-          <img
-            src="/Grad2.JPG"
-            className="w-[350px] object-cover"
-          />
+          <img src="/Grad2.JPG" className="w-[320px] object-cover" />
         </div>
 
       </section>
