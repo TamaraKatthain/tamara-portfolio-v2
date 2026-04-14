@@ -4,18 +4,18 @@ export default function Home() {
   return (
     <main className="relative min-h-screen overflow-hidden">
 
-      {/* CUTOUT IMAGE */}
-      <div className="absolute bottom-0 left-[-60px]">
+      {/* CUTOUT IMAGE — REAL POP OUT */}
+      <div className="absolute bottom-0 left-[-80px]">
         <Image
-          src="/TamyProfile.png"
+          src="/TamyProfileNew.png"
           alt="Tamara Katthain"
-          width={650}
-          height={750}
-          className="object-contain"
+          width={700}
+          height={800}
+          className="object-contain drop-shadow-2xl"
         />
       </div>
 
-      {/* TEXT */}
+      {/* TEXT — RIGHT SIDE */}
       <div className="flex justify-end items-center min-h-screen px-24">
 
         <div className="max-w-xl space-y-8 text-right">
