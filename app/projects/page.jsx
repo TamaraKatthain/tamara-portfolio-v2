@@ -25,7 +25,7 @@ export default function Projects() {
               src="/Nike.png"
               alt="Nike"
               fill
-              className="object-cover transition duration-500 group-hover:scale-105"
+              className="object-cover grayscale transition duration-500 group-hover:scale-105"
             />
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function Projects() {
               src="/Pedidosya.png"
               alt="Pedidos"
               fill
-              className="object-cover transition duration-500 group-hover:scale-105"
+              className="object-cover grayscale transition duration-500 group-hover:scale-105"
             />
           </div>
         </div>
@@ -57,7 +57,7 @@ export default function Projects() {
               src="/Redbull.png"
               alt="Red Bull"
               fill
-              className="object-cover transition duration-500 group-hover:scale-105"
+              className="object-cover grayscale transition duration-500 group-hover:scale-105"
             />
           </div>
         </div>
