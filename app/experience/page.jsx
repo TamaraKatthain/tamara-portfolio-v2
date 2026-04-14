@@ -9,49 +9,34 @@ export default function Experience() {
         </h1>
       </div>
 
-      {/* TIMELINE */}
-      <section className="relative border-l-2 border-[#2F8EDC] pl-10 space-y-16 max-w-2xl">
+      {/* STATEMENTS */}
+      <section className="space-y-12 max-w-3xl">
 
-        {/* 2026 */}
-        <div>
-          <p className="text-sm text-[#2F8EDC] mb-2">2026</p>
-          <p className="text-lg font-medium">
-            USC MS in DSM, a highly selective program shaping the future of communication.
-          </p>
-        </div>
+        <p className="text-3xl font-semibold">
+          3+ years of advertising experience across agency and client-side roles.
+        </p>
 
-        {/* 2024 */}
-        <div>
-          <p className="text-sm text-[#2F8EDC] mb-2">2024</p>
-          <p className="text-lg font-medium">
-            Supported the launch of 20+ products to market across CPG categories.
-          </p>
-        </div>
+        <p className="text-2xl">
+          Experience working with legendary clients like Tinder, Walmart, Visa, and OceanSpray.
+        </p>
 
-        {/* 2022 */}
-        <div>
-          <p className="text-sm text-[#2F8EDC] mb-2">2022</p>
-          <p className="text-lg font-medium">
-            Experience working with legendary clients like Tinder, Walmart, Visa, and OceanSpray.
-          </p>
-        </div>
+        <p className="text-2xl">
+          Supported the launch of 20+ products to market across CPG categories.
+        </p>
 
-        {/* 2019 */}
-        <div>
-          <p className="text-sm text-[#2F8EDC] mb-2">2019</p>
-          <p className="text-lg font-medium">
-            Boston University BA in Psychology, Minor in Advertising.
+        <div className="pt-10 border-t border-[#2F8EDC]/30 space-y-6">
+
+          <p className="text-lg">
+            Boston University — BA in Psychology, Minor in Advertising (2019)
           </p>
+
+          <p className="text-lg">
+            USC — MS in Digital Social Media, a highly selective program shaping the future of communication (2026)
+          </p>
+
         </div>
 
       </section>
-
-      {/* SUMMARY LINE */}
-      <div className="mt-20 max-w-xl">
-        <p className="text-lg">
-          3+ years of advertising experience across agency and client-side roles.
-        </p>
-      </div>
 
     </main>
   )
