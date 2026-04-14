@@ -17,7 +17,7 @@ export default function Projects() {
           <h3 className="text-[#2F8EDC] font-bold mb-4">NIKE</h3>
           <img
             src="/Nike.png"
-            className="w-[350px] h-[220px] object-cover"
+            className="w-[350px] h-[220px] object-cover grayscale"
           />
         </div>
 
@@ -26,7 +26,7 @@ export default function Projects() {
           <h3 className="text-[#2F8EDC] font-bold mb-4">PEDIDOS YA</h3>
           <img
             src="/Pedidosya.png"
-            className="w-[350px] h-[220px] object-cover"
+            className="w-[350px] h-[220px] object-cover grayscale"
           />
         </div>
 
@@ -35,7 +35,7 @@ export default function Projects() {
           <h3 className="text-[#2F8EDC] font-bold mb-4">RED BULL</h3>
           <img
             src="/Redbull.png"
-            className="w-[350px] h-[220px] object-cover"
+            className="w-[350px] h-[220px] object-cover grayscale"
           />
         </div>
 
