@@ -2,19 +2,18 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="app-container">
+    <main className="app-container text-white">
 
       <section className="mb-32 grid md:grid-cols-2 gap-16 items-start">
 
-        {/* LEFT */}
         <div>
 
-          {/* NAME — BIG */}
-          <h1 className="text-6xl leading-tight mb-6">
+          {/* NAME */}
+          <h1 className="text-7xl font-extrabold mb-6">
             Tamara Katthain
           </h1>
 
-          {/* STATEMENT — SMALLER */}
+          {/* STATEMENT */}
           <h2 className="text-3xl mb-6 max-w-xl">
             I constantly question the world around me
           </h2>
@@ -26,15 +25,13 @@ export default function Home() {
 
         </div>
 
-        {/* RIGHT — IMAGE */}
         <div className="flex justify-end">
           <Image
             src="/ProfileTamara.jpeg"
             alt="Tamara Katthain"
             width={320}
             height={400}
-            className="object-cover rounded-sm"
-            priority
+            className="object-cover"
           />
         </div>
 
