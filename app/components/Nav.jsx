@@ -26,6 +26,7 @@ export default function Nav() {
         <Link href="/about"><span className={linkStyle('/about')}>About</span></Link>
         <Link href="/experience"><span className={linkStyle('/experience')}>Experience</span></Link>
         <Link href="/projects"><span className={linkStyle('/projects')}>Work</span></Link>
+        <Link href="/deep-dives"><span className={linkStyle('/deep-dives')}>Deep Dives</span></Link>
         <Link href="/contact"><span className={linkStyle('/contact')}>Contact</span></Link>
 
       </div>
