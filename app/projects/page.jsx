@@ -14,24 +14,51 @@ export default function Projects() {
       {/* PROJECTS */}
       <section className="flex gap-20 justify-center items-start">
 
-        <div className="w-[320px]">
-          <p className="text-lg font-semibold text-[#2F8EDC] mb-3">NIKE</p>
+        {/* NIKE */}
+        <div className="w-[320px] group cursor-pointer">
+          <p className="text-lg font-semibold text-[#2F8EDC] mb-3 opacity-0 group-hover:opacity-100 transition">
+            NIKE
+          </p>
+
           <div className="relative w-full h-[400px] overflow-hidden">
-            <Image src="/Nike.png" alt="Nike" fill className="object-cover" />
+            <Image
+              src="/Nike.png"
+              alt="Nike"
+              fill
+              className="object-cover transition duration-500 group-hover:scale-105"
+            />
           </div>
         </div>
 
-        <div className="w-[320px]">
-          <p className="text-lg font-semibold text-[#2F8EDC] mb-3">PEDIDOS YA</p>
+        {/* PEDIDOS YA */}
+        <div className="w-[320px] group cursor-pointer">
+          <p className="text-lg font-semibold text-[#2F8EDC] mb-3 opacity-0 group-hover:opacity-100 transition">
+            PEDIDOS YA
+          </p>
+
           <div className="relative w-full h-[400px] overflow-hidden">
-            <Image src="/Pedidosya.png" alt="Pedidos" fill className="object-cover" />
+            <Image
+              src="/Pedidosya.png"
+              alt="Pedidos"
+              fill
+              className="object-cover transition duration-500 group-hover:scale-105"
+            />
           </div>
         </div>
 
-        <div className="w-[320px]">
-          <p className="text-lg font-semibold text-[#2F8EDC] mb-3">RED BULL</p>
+        {/* RED BULL */}
+        <div className="w-[320px] group cursor-pointer">
+          <p className="text-lg font-semibold text-[#2F8EDC] mb-3 opacity-0 group-hover:opacity-100 transition">
+            RED BULL
+          </p>
+
           <div className="relative w-full h-[400px] overflow-hidden">
-            <Image src="/Redbull.png" alt="Red Bull" fill className="object-cover" />
+            <Image
+              src="/Redbull.png"
+              alt="Red Bull"
+              fill
+              className="object-cover transition duration-500 group-hover:scale-105"
+            />
           </div>
         </div>
 
