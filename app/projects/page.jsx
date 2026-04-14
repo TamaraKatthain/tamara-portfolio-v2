@@ -1,43 +1,45 @@
-export default function Experience() {
+export default function Projects() {
   return (
-    <main className="app-container py-20">
+    <main className="app-container min-h-screen">
 
       {/* HEADLINE */}
-      <div className="mb-16">
-        <h1 className="text-7xl md:text-8xl font-extrabold text-[#2F8EDC] leading-[0.95]">
-          Where curiosity meets execution
+      <div className="mb-24">
+        <h1 className="text-7xl md:text-8xl font-extrabold text-[#2F8EDC]">
+          What it looks like in practice.
         </h1>
       </div>
 
-      {/* TEXT GRID */}
-      <section className="grid md:grid-cols-3 gap-12 mb-16">
+      {/* WORK GRID */}
+      <section className="flex justify-center gap-24">
 
-        <div>
-          <h3 className="font-bold mb-4">Academics</h3>
-          <p>Boston University BA in Psychology, Minor in Advertising</p>
-          <p className="mt-4">USC MS in DSM — Expected 2026</p>
+        {/* NIKE */}
+        <div className="text-center">
+          <h3 className="text-[#2F8EDC] font-bold mb-4">NIKE</h3>
+          <img
+            src="/Nike.png"
+            className="w-[350px] h-[220px] object-cover"
+          />
         </div>
 
-        <div>
-          <h3 className="font-bold mb-4">Professional</h3>
-          <p>Worked with Tinder, Walmart, Visa, OceanSpray</p>
-          <p className="mt-4">Launched 20+ products (CPG)</p>
-          <p className="mt-4">3+ years agency + client-side</p>
+        {/* PEDIDOS YA */}
+        <div className="text-center">
+          <h3 className="text-[#2F8EDC] font-bold mb-4">PEDIDOS YA</h3>
+          <img
+            src="/Pedidosya.png"
+            className="w-[350px] h-[220px] object-cover"
+          />
         </div>
 
-        <div>
-          <h3 className="font-bold mb-4">Other</h3>
-          <p>USC Annenberg Columnist</p>
-          <p className="mt-4">Research Projects</p>
-          <p className="mt-4">Entrepreneur</p>
+        {/* RED BULL */}
+        <div className="text-center">
+          <h3 className="text-[#2F8EDC] font-bold mb-4">RED BULL</h3>
+          <img
+            src="/Redbull.png"
+            className="w-[350px] h-[220px] object-cover"
+          />
         </div>
 
       </section>
-
-      {/* THIS IS GRAD2.JPG */}
-      <div>
-        <img src="/Grad2.JPG" className="w-full object-cover" />
-      </div>
 
     </main>
   )
