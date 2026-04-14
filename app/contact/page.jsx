@@ -6,7 +6,6 @@ export default function Contact() {
 
       <section className="grid md:grid-cols-2 gap-20 items-center">
 
-        {/* LEFT */}
         <div className="space-y-10">
 
           <h1 className="text-7xl md:text-8xl font-extrabold text-[#2F8EDC] leading-[0.95]">
@@ -15,19 +14,19 @@ export default function Contact() {
 
           <div className="flex flex-col gap-6 text-2xl font-medium">
 
-            <a href="mailto:katthaint@gmail.com" className="hover:underline hover:text-[#2F8EDC] transition">
+            <a href="mailto:katthaint@gmail.com" className="hover:underline hover:text-[#2F8EDC] hover:translate-x-2 transition">
               Email
             </a>
 
-            <a href="https://www.linkedin.com/in/tamara-katthain" target="_blank" className="hover:underline hover:text-[#2F8EDC] transition">
+            <a href="https://www.linkedin.com/in/tamara-katthain" target="_blank" className="hover:underline hover:text-[#2F8EDC] hover:translate-x-2 transition">
               LinkedIn
             </a>
 
-            <a href="https://substack.com/@tamarakatthain" target="_blank" className="hover:underline hover:text-[#2F8EDC] transition">
+            <a href="https://substack.com/@tamarakatthain" target="_blank" className="hover:underline hover:text-[#2F8EDC] hover:translate-x-2 transition">
               Substack
             </a>
 
-            <a href="https://medium.com/@TamaraKatthain" target="_blank" className="hover:underline hover:text-[#2F8EDC] transition">
+            <a href="https://medium.com/@TamaraKatthain" target="_blank" className="hover:underline hover:text-[#2F8EDC] hover:translate-x-2 transition">
               Medium
             </a>
 
@@ -35,7 +34,6 @@ export default function Contact() {
 
         </div>
 
-        {/* RIGHT */}
         <div className="flex justify-end">
           <Image src="/Snoopy.jpg" alt="Snoopy" width={380} height={380} className="object-cover" />
         </div>
