@@ -1,21 +1,49 @@
+'use client'
+
 import Link from 'next/link'
 
 export default function Nav() {
   return (
-    <nav className="flex justify-between items-center mb-24 text-white">
+    <nav className="flex justify-between items-center mb-16">
 
       {/* NAME */}
-      <div className="text-sm tracking-[0.2em] uppercase">
+      <div className="text-base tracking-[0.2em] uppercase text-[#2F8EDC]">
         Tamara Katthain
       </div>
 
       {/* LINKS */}
-      <div className="flex gap-10 text-sm opacity-80">
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/experience">Experience</Link>
-        <Link href="/projects">Work</Link>
-        <Link href="/contact">Contact</Link>
+      <div className="flex gap-4">
+
+        <Link href="/">
+          <span className="px-4 py-2 rounded-full text-sm bg-[#2F8EDC]/10 text-[#2F8EDC] hover:bg-[#2F8EDC] hover:text-white transition">
+            Home
+          </span>
+        </Link>
+
+        <Link href="/about">
+          <span className="px-4 py-2 rounded-full text-sm bg-[#2F8EDC]/10 text-[#2F8EDC] hover:bg-[#2F8EDC] hover:text-white transition">
+            About
+          </span>
+        </Link>
+
+        <Link href="/experience">
+          <span className="px-4 py-2 rounded-full text-sm bg-[#2F8EDC]/10 text-[#2F8EDC] hover:bg-[#2F8EDC] hover:text-white transition">
+            Experience
+          </span>
+        </Link>
+
+        <Link href="/projects">
+          <span className="px-4 py-2 rounded-full text-sm bg-[#2F8EDC]/10 text-[#2F8EDC] hover:bg-[#2F8EDC] hover:text-white transition">
+            Work
+          </span>
+        </Link>
+
+        <Link href="/contact">
+          <span className="px-4 py-2 rounded-full text-sm bg-[#2F8EDC]/10 text-[#2F8EDC] hover:bg-[#2F8EDC] hover:text-white transition">
+            Contact
+          </span>
+        </Link>
+
       </div>
 
     </nav>
