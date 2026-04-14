@@ -2,15 +2,18 @@ export default function About() {
   return (
     <main className="app-container min-h-screen">
 
+      {/* HEADLINE */}
+      <div className="mb-24">
+        <h1 className="text-6xl md:text-7xl font-extrabold text-white">
+          What Drives Me?
+        </h1>
+      </div>
+
+      {/* CONTENT */}
       <section className="grid md:grid-cols-3 gap-16 items-start relative">
 
         {/* COLUMN 1 */}
         <div className="space-y-6">
-
-          {/* ICON */}
-          <div className="text-4xl text-[#2F8EDC]">
-            🔍
-          </div>
 
           <h3 className="text-lg font-bold uppercase tracking-wide">
             Fundamental Human Value
@@ -28,10 +31,6 @@ export default function About() {
         {/* COLUMN 2 */}
         <div className="space-y-6">
 
-          <div className="text-4xl text-[#2F8EDC]">
-            💭
-          </div>
-
           <h3 className="text-lg font-bold uppercase tracking-wide">
             Who Really Gets Me
           </h3>
@@ -47,10 +46,6 @@ export default function About() {
 
         {/* COLUMN 3 */}
         <div className="space-y-6">
-
-          <div className="text-4xl text-[#2F8EDC]">
-            🧠
-          </div>
 
           <h3 className="text-lg font-bold uppercase tracking-wide">
             How I Want My Clients to Feel
